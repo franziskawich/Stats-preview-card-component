@@ -14,9 +14,7 @@ This is a solution to the [Stats preview card component challenge on Frontend Me
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -32,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/franziskawich/stats-preview-card-component/](https://github.com/franziskawich/stats-preview-card-component/)
+- Live Site URL: [https://franziskawich.github.io/stats-preview-card-component/](https://franziskawich.github.io/stats-preview-card-component/)
 
 ## My process
 
@@ -46,52 +44,27 @@ Users should be able to:
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
+I learned how to include a responsive image with the help of the HTML attributes srcset and sizes; and the "object-fit" property. It seems that "display: block;" on an image is always a good choice to avoid unwanted space next to an image. I found out about the "mix-blend-mode" property and I have found an alternative for IE with the at-rule "@supports not". I had fun commenting and helping another user with this project and I have learned a lot while looking at solutions from other users.
 
 ```css
-.proud-of-this-css {
-  color: papayawhip;
-}
+ @supports (mix-blend-mode: multiply) {
+      mix-blend-mode: multiply;
+    }
 ```
-
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉');
-};
-```
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+I should look up ways to test my projects on older IE browsers. Next time I would like to try a mobile-first workflow. The sizes of the images confused me a bit. The desktop version is smaller than the mobile version. I will ask about this when I upload my solution to Frontend Mentors. I am not sure whether I named my classes correctly according to the BEM methodology. I don't think my autoprefixer worked correctly. It only included "-o-object-fit", there should be more prefixes. 
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+- [MDN - Responsive images](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images) - This helped me with including the image. Definitly not the last time I used this resource.
+- [Create Your First Github Project in VSCode](https://www.jcchouinard.com/create-your-first-github-project-in-vscode/) - Now I know how to commit and push changes via VSCode and why I need .gitignore files. 
 
 ## Author
 
 - Frontend Mentor - [@franziskawich](https://www.frontendmentor.io/profile/franziskawich)
 - freeCodeCamp - [Franziska Wich](https://www.freecodecamp.org/fcc35fab9df-6b8c-445e-8aec-36ee00e99ba0)
 
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
 
-## Acknowledgments
 
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
