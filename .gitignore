@@ -17,3 +17,16 @@
 
 # Ignore workspace file
 .code-workspace
+
+# Ignore style-guide
+style-guide.md
+
+# Ignore all .json files
+*.json
+
+#
+node_modules/
+
+# 
+style.comp.css
+style.prefix.css
