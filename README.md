@@ -38,7 +38,7 @@ Users should be able to:
 ### Built with
 
 - Semantic HTML5 markup
-- SCSS
+- SCSS (saved as CSS)
 - Flexbox
 - Desktop-first workflow
 - BEM methodology
