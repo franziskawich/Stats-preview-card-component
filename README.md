@@ -41,6 +41,7 @@ Users should be able to:
 - SCSS
 - Flexbox
 - Desktop-first workflow
+- BEM methodology
 
 ### What I learned
 
